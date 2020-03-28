@@ -1,12 +1,11 @@
-How to grab Email Addresses from Dorks?
-
+How to grab Email Addresses from Dorks:
 site:facebook.com "cybersecurity" "@gmail.com"
 
 Or if you want email ID by location then use following Dork
-
 site:facebook.com "cybersecurity" "florida" "@gmail.com"
 
 Google queries for locating various Web serversApache/1.3.28 Server at” intitle:index.of
+
 Apache 1.3.2
 “Apache/2.0 Server at” intitle:index.of
 Apache 2.0
