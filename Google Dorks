@@ -499,3 +499,123 @@ allintitle:Brains, Corp.
 camera webcams accessible via mmEye
 
 intitle:”active webcam page”
+
+intitle:"index of" db.frm	Sensitive Directories
+intitle:"index of" /known_hosts	Files Containing Juicy Info	Alexandros Pappas
+intitle:"index of" errors.log	Error Messages	
+intitle:"index of" machine.config	Files Containing Juicy Info	
+intitle:"index of" apache.log	Files Containing Juicy Info	
+intitle:"index of" /.ssh/id_rsa OR id_rsa.pub	Files Containing Juicy Info	
+intitle:"index of" "syslog"	Files Containing Juicy Info	
+intitle:"index of" "/cron.log"	Files Containing Juicy Info	
+intitle:"index of" "/db_backups/"	Sensitive Directories	
+intitle:"index of" keepass.kdbx OR database.kdbx	Files Containing Juicy Info	
+inurl:"/dynamic/password-reset.html"	Pages Containing Login Portals	
+intitle:"Kyocera Command Center" inurl:index.htm	Various Online Devices	
+intitle:"Internet Services" inurl:default.htm intext:"FUJI XEROX"	Various Online Devices	
+intitle:"Index of" db_mysql.inc	Files Containing Juicy Info	
+intitle:"Index of" db.inc	Files Containing Juicy Info	
+"DBPassword" ext:cfg OR ext:log OR ext:txt OR ext:sql -git	Files Containing Juicy Info	
+"MasterUserPassword" ext:cfg OR ext:log OR ext:txt -git	Files Containing Passwords	
+"The default username and password is admin:admin" intitle:Login OR inurl:login.php	Pages Containing Login Portals	
+"/etc/shadow root:$" ext:cfg OR ext:log OR ext:txt OR ext:sql -git	Files Containing Passwords	
+inurl:/8080/login.html	Pages Containing Login Portals	
+intitle:"index of " "*.passwords.txt"	Files Containing Passwords	
+inurl:start.swe?SWECmd	Pages Containing Login Portals	
+"SecretAccessKey" OR "AccessKeyId" ext:txt OR ext:cfg -git	Files Containing Juicy Info	
+"admin password irreversible-cipher" ext:txt OR ext:log OR ext:cfg	Files Containing Passwords	
+"super password level 3 cipher" ext:txt OR ext:log	Files Containing Passwords	
+inurl:/index.htm intext:"Oki Data Corporation"	Various Online Devices	
+inurl:8080/portal/pda/?force.login=yes	Pages Containing Login Portals	
+inurl:8080/dashboard intitle:Graphite Dashboard	Various Online Devices	
+inurl:8080/dashboard.php	Various Online Devices	
+intitle:"index of" "debug.log" OR "debug-log"	Web Server Detection	
+intitle:"index of" "db.ini"	Files Containing Passwords	
+intitle:"index of" application.ini	Files Containing Passwords	
+intitle:"index of" "database.ini" OR "database.ini.old"	Files Containing Passwords	
+site:."atlassian.net" "Log in to your account"	Pages Containing Login Portals	
+inurl:mainFrame.cgi intext:"RICOH"	Various Online Devices	
+inurl:/?MAIN=DEVICE intitle:TopAccess intext:Device	Various Online Devices	 
+inurl:sws/index.html AND intext:"Model Name" AND intext:"Serial Number"	Various Online Devices	
+2020-04-20	inurl:"login.html" intitle:"d-link"	Pages Containing Login Portals	
+intitle:"My Book World Edition - MyBookWorld"	Advisories and Vulnerabilities	
+"login" intitle:"iot login"	Pages Containing Login Portals	
+site:*/test/login	Pages Containing Login Portals	
+inurl:"index.php?option=com_jsjobs"	Advisories and Vulnerabilities	
+site:*/lost-password/	Pages Containing Login Portals	
+"Welcome to Sentry, please log in:"	Pages Containing Login Portals	
+inurl:/DeclaranetPlusWebapp/ intext:Entrar	Pages Containing Login Portals	
+inurl:/main.html intext:SHARP AND intext:MX-*	Various Online Devices	
+"-----BEGIN OpenVPN Static key V1-----" ext:key	Files Containing Juicy Info	
+intitle:"index of" "common.crt" OR "ca.crt"	Sensitive Directories	
+"-----BEGIN CERTIFICATE-----" ext:pem -git	Files Containing Juicy Info	
+intitle:"index of" "proxy.pac" OR "proxy.pac.bak"	Sensitive Directories	
+intext:"Welcome Site/User Administrator"	Pages Containing Login Portals	
+intitle:"index of" "global.asa"	Sensitive Directories	
+intitle:"index of" errorlog.txt	Files Containing Juicy Info	
+inurl:"wp-contentpluginsall-in-one-seo-pack"	Advisories and Vulnerabilities	
+intitle:"index of" "cctv"	Sensitive Directories	
+inurl:"/auth.php?forgot_password=yes"	Pages Containing Login Portals	
+site:*/auth.php	Pages Containing Login Portals	
+site:*/password_lost.php	Pages Containing Login Portals	
+inurl:/dana/home/ filetype:cgi	Various Online Devices	
+site:*/request-new-password	Pages Containing Login Portals	
+intext:"Any time & Any where" intext:"Username" intext:"Password" intext:login intext:"View: Mobile | PC"	Pages Containing Login Portals	
+intext:"This is the default welcome page used to test the correct operation of the Apache2 server"	Web Server Detection	
+inurl:/dana-cached/sc/	Various Online Devices	
+inurl:main_login.html intitle:Netgear	Pages Containing Login Portals	
+site:*/JIRA/login	Pages Containing Login Portals	
+site:*/admin/password.php	Pages Containing Login Portals	
+inurl:r51173 intext:"Keep me logged in"	Pages Containing Login Portals	
+inurl:/global-protect/login.esp	Pages Containing Login Portals	
+inurl:"/WebResource.axd?d=" AND intext:Error	Error Messages	
+inurl:/sslvpn/Login/Login	Pages Containing Login Portals	
+"Powered by SePortal 2.5"	Advisories and Vulnerabilities	
+inurl:"index.php?id=" intext:"Warning: mysql_num_rows()"	Error Messages	
+intitle:"index of" "cvsweb.cgi"	Various Online Devices	
+inurl:./sws/index.sws	Various Online Devices	
+2020-04-16	intitle:"index of" "vpn-config.*"	Files Containing Juicy Info	
+intitle:"index of" "owncloud/config/*"	Sensitive Directories	
+intitle:"index of" "iredadmin/*"	Sensitive Directories	
+intitle:"index of" default.rdp	Files Containing Juicy Info	
+intitle: "index of" "MySQL-Router"	Sensitive Directories	
+site:*/PassRecover	Pages Containing Login Portals
+site:*/user/forgotpass	Pages Containing Login Portals	
+site:*/signup/pass	Pages Containing Login Portals
+site:account.*.*/recovery	Pages Containing Login Portals	
+intext:"Powered by YouPHPTube"	Advisories and Vulnerabilities	
+inurl:SSI/index.htm	Various Online Devices	
+inurl:/frameprop.htm	Various Online Devices	
+intext:"Current Configuration:" ext:cfg -git	Files Containing Juicy Info	
+"Powered by PHPBack"	Advisories and Vulnerabilities	
+"Powered by Lanius CMS"	Advisories and Vulnerabilities	
+filetype:php inurl:"/general/login.php?PHPSESSID="	Advisories and Vulnerabilities	
+inurl:php-bin/webclient.php	Advisories and Vulnerabilities	
+inurl:/?op=registration	Advisories and Vulnerabilities	
+site:*/lost_pass.php	Pages Containing Login Portals	
+inurl:"/English/pages_WinUS/" AND intitle:"Top page"	Various Online Devices	
+intitle:"index of" cvsweb.conf	Files Containing Juicy Info	
+"Powered by sNews CMS"	Advisories and Vulnerabilities	
+"Powered by Podcast Generator"	Advisories and Vulnerabilities	
+"Powered By Liferay"	Advisories and Vulnerabilities	
+intitle:"index of" cvsroot	Sensitive Directories	
+intitle:"Printer Status" AND inurl:"/PrinterStatus.html"	Various Online Devices	
+filetype:reg reg HKEY_USERS -git	Files Containing Juicy Info	
+site:*/signup/password.php	Pages Containing Login Portals	
+site:*/requestpassword.*	Pages Containing Login Portals	
+site:*/membersarea intitle:"login"	Pages Containing Login Portals	
+site:*/user/forgot	Pages Containing Login Portals
+inurl:("/storage/logs/laravel.log") AND intext:("local.ERROR" | "NULL.ERROR" | "EMERGENCY:")	Error Messages	
+filetype:reg reg [HKEY_CURRENT_USERSoftware] -git	Files Containing Juicy Info	
+filetype:reg reg HKEY_CLASSES_ROOT -git	Files Containing Juicy Info	
+inurl:axis-cgi/mjpg/video.cgi	Various Online Devices	
+site:*/changePassword.php	Pages Containing Login Portals	
+site:*/reminder_password	Pages Containing Login Portals	
+intitle:NetworkCamera intext:"Pan / Tilt" inurl:ViewerFrame	Various Online Devices	
+intitle:"index of" "db.connection.js"	Files Containing Passwords	
+site:*/resetpass.php	Pages Containing Login Portals 
+site:*/retrieve-password	Pages Containing Login Portals	
+inurl:cgistart	Various Online Devices	 
+site:*/account-recovery.html	Pages Containing Login Portals	
+inurl:view.shtml	Various Online Devices	
+inurl:/live.htm intext:"M-JPEG"|"System Log"|"Camera-1"|"View Control"	Various Online Devices
